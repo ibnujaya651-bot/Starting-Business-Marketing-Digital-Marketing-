@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Starting Business Digital Marketing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Starting Business Digital Marketing</h1>
+  <p>Website Digital Marketing dengan Integrasi AI</p>
+</header>
+
+<!-- LOGIN -->
+<div id="login" class="login-box">
+  <h2>Login</h2>
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+  <p id="error"></p>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard" class="container hidden">
+  <h2>Dashboard</h2>
+  <p>Selamat datang di sistem Digital Marketing berbasis AI.</p>
+
+  <h3>Layanan Digital Marketing</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>Social Media Marketing</h4>
+      <p>Promosi melalui Instagram, TikTok, dan Facebook.</p>
+    </div>
+    <div class="card">
+      <h4>Content Creation</h4>
+      <p>Pembuatan konten kreatif dan menarik.</p>
+    </div>
+    <div class="card">
+      <h4>Digital Ads</h4>
+      <p>Iklan digital efektif untuk UMKM.</p>
+    </div>
+  </div>
+
+  <h3>Simulasi AI</h3>
+  <input type="text" id="inputAI" placeholder="Masukkan jenis produk">
+  <button onclick="runAI()">Analisis AI</button>
+  <p id="resultAI"></p>
+
+  <h3>Produk Digital</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>E-Book Digital Marketing</h4>
+      <p>Panduan memulai bisnis online.</p>
+    </div>
+    <div class="card">
+      <h4>Template Konten</h4>
+      <p>Template promosi media sosial.</p>
+    </div>
+    <div class="card">
+      <h4>Paket Iklan</h4>
+      <p>Paket iklan hemat UMKM.</p>
+    </div>
+  </div>
+
+  <button class="logout" onclick="logout()">Logout</button>
+</div>
+
+<footer>
+  <p>© 2025 Starting Business Digital Marketing</p>
+</footer>
+
+<!-- Link JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
